@@ -6,14 +6,14 @@ const Footer = () => {
             <Link to="/home">
                 <img
                     className="w-24 h-10 md:w-44 md:h-20 hover:scale-110 transition-transform duration-300"
-                    src="../../../Inicio22.png"
+                    src="./inicio.png"
                 />
             </Link>
 
             <Link to="/characters">
                 <img
                     className="w-48 h-16 md:w-60 md:h-24 hover:scale-110 transition-transform duration-300"
-                    src="../../../personagens2.png"
+                    src="./personagens.png"
                 />
             </Link>
         </div>

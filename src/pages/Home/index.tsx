@@ -5,10 +5,10 @@ import BackgroundWrapper from "../../components/BackgroundWrapper/BackgroundWrap
 const Home = () => {
     return (
         <div>
-            <BackgroundWrapper bgImagePath="../../../background_home.png">
+            <BackgroundWrapper bgImagePath="./background_home.png">
                 <HeaderWithImage />
                 <img
-                    src="../../../spaceship.png"
+                    src="./spaceship.png"
                     alt="Imagem de uma nave espacial"
                     className="w-96 md:w-[420px] lg:w-[580px] m-auto"
                 />

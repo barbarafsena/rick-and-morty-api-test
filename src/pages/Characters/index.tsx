@@ -50,7 +50,7 @@ const Characters: React.FC = () => {
 
     return (
         <div>
-            <BackgroundWrapper bgImagePath="../../../background_characters.png">
+            <BackgroundWrapper bgImagePath="./background_characters.png">
                 <div className="flex flex-col items-center">
                     <HeaderWithNav />
                     <SearchBar placeholder={"Digite o nome do personagem"} onSearch={handleSearch} />
