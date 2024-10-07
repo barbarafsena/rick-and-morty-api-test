@@ -9,7 +9,7 @@ function App() {
     <>
       <Router>
         <Routes>
-        <Route path="/" element={<Navigate to="/home" />} />
+        <Route path="/rick-and-morty-test/character" element={<Navigate to="/home" />} />
           <Route path="/home" element={<Home />} />
           <Route path="/characters" element={<Characters />} />
           <Route path="*" element={<Erro404 />} />
